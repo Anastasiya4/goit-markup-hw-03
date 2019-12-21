@@ -1,17 +1,28 @@
-/* #626262
-#b4ad9e
-#03a9f4*/
-.page-header {
-    background-color: #fff;
+:root {
+    --black-color: #626262;
+    --gray-color: #b4ad9e;
+    --accent-color: #03a9f4;
+    --font-stack: 'Playfair Display', serif;
+    --font-sections: 'Ubuntu', sans-serif;
 }
-.text {
-    color: ;
+.body {
+    font-family: var(--font-stack);
+    font-size: 14px;
+    color: var(--black-color);
 }
-.site-nav .link {
-    color: ;
+
+.title-of-section {
+    color: var(--gray-color);
+    font-family: var(--font-sections);
 }
+
 .site-nav .link:hover {
     color: #03a9f4;
+}
+
+.button {
+    font-family: inherit;
+    cursor: pointer;
 }
 /*
  font-family: 'Ubuntu', sans-serif;
