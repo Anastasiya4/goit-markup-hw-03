@@ -7,13 +7,30 @@
 }
 .body {
     font-family: var(--font-stack);
-    font-size: 14px;
     color: var(--black-color);
+    text-align: left;
 }
 
 .title-of-section {
     color: var(--gray-color);
     font-family: var(--font-sections);
+    font-size: 14px;
+}
+
+.site-nav .link {
+    font-size: 14px;
+    line-height: 1.7;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.text {
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+h2 {
+    font-size: 30px;
 }
 
 .site-nav .link:hover {
@@ -23,6 +40,8 @@
 .button {
     font-family: inherit;
     cursor: pointer;
+    font-size: 20px;
+    line-height: 0.83;
 }
 /*
  font-family: 'Ubuntu', sans-serif;
