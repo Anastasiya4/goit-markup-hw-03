@@ -33,7 +33,7 @@ h2 {
     font-size: 30px;
 }
 
-.site-nav .link:hover {
+.site-nav .link:hover, .site-nav .link:focus {
     color: #03a9f4;
 }
 
